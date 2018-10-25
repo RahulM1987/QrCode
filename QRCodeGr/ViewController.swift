@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import CoreImage
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var qrImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        qrImage.image = QRCodeGeneration().generateQRCode(isString: "Hello world program created by someone", scale: 8.0)
+       // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +24,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+   
+    
+   
 
 }
 

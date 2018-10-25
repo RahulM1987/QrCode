@@ -14,6 +14,7 @@
 		D442B178218038FF00151F7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D442B176218038FF00151F7A /* LaunchScreen.storyboard */; };
 		D442B183218038FF00151F7A /* QRCodeGrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D442B182218038FF00151F7A /* QRCodeGrTests.swift */; };
 		D442B18E218038FF00151F7A /* QRCodeGrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D442B18D218038FF00151F7A /* QRCodeGrUITests.swift */; };
+		D442B19C2180412600151F7A /* QRCodeGeneration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D442B19B2180412600151F7A /* QRCodeGeneration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D442B189218038FF00151F7A /* QRCodeGrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRCodeGrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D442B18D218038FF00151F7A /* QRCodeGrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGrUITests.swift; sourceTree = "<group>"; };
 		D442B18F218038FF00151F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D442B19B2180412600151F7A /* QRCodeGeneration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGeneration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				D442B16D218038FC00151F7A /* AppDelegate.swift */,
 				D442B16F218038FC00151F7A /* ViewController.swift */,
+				D442B19B2180412600151F7A /* QRCodeGeneration.swift */,
 				D442B171218038FC00151F7A /* Main.storyboard */,
 				D442B174218038FE00151F7A /* Assets.xcassets */,
 				D442B176218038FF00151F7A /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D442B19C2180412600151F7A /* QRCodeGeneration.swift in Sources */,
 				D442B170218038FC00151F7A /* ViewController.swift in Sources */,
 				D442B16E218038FC00151F7A /* AppDelegate.swift in Sources */,
 			);
